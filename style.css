@@ -42,3 +42,12 @@ body {
 	color: #bf91d2;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.sweetImg {
+	margin:10px;
+}
+
+.sweetImg :hover {
+	opacity: 0.75;
+	transition: 1s;
+}
