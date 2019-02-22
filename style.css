@@ -23,16 +23,17 @@ body {
 .site-branding
 .site-title {
 	font-size: 4em;
-	color: #555de0;
 }
 
 .site-branding
 .site-description {
 	font-size: 2em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: #bf91d2;
 }
 
-.couleur {
-	color: red;
-	background-color:#ddd;
+.entry-header
+.entry-title {
+	color: #555de0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
