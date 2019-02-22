@@ -43,6 +43,11 @@ body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.sweetListe :hover {
+	color: #9e2687;
+	transition: 0.5s;
+}
+
 .sweetImg {
 	margin:10px;
 }
