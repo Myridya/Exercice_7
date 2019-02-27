@@ -1,0 +1,22 @@
+.animDescSite{
+    animation: description 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes description{
+    from{
+        color:black;
+        font-size:1em;
+     }
+
+     50%{
+        color: #555de0;
+        font-size: 2em;
+     }
+ 
+     to{
+        color:black;
+        font-size: 1em;
+     }
+}

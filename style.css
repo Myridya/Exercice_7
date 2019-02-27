@@ -336,7 +336,7 @@ template {
 }
 
 /* ------------------------------------------------------ */
-/* animation */
+/* animations */
 .animSousTitre {
   -webkit-animation: sousTitre 1.5s;
           animation: sousTitre 1.5s;
@@ -375,12 +375,10 @@ template {
   from {
     top: 0px;
     opacity: 0;
-    color: white;
   }
   to {
     top: 70px;
     opacity: 1;
-    color: red;
   }
 }
 
@@ -388,12 +386,48 @@ template {
   from {
     top: 0px;
     opacity: 0;
-    color: white;
   }
   to {
     top: 70px;
     opacity: 1;
-    color: red;
+  }
+}
+
+.animDescSite {
+  -webkit-animation: description 5s;
+          animation: description 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes description {
+  from {
+    color: black;
+    font-size: 1em;
+  }
+  50% {
+    color: #555de0;
+    font-size: 2em;
+  }
+  to {
+    color: black;
+    font-size: 1em;
+  }
+}
+
+@keyframes description {
+  from {
+    color: black;
+    font-size: 1em;
+  }
+  50% {
+    color: #555de0;
+    font-size: 2em;
+  }
+  to {
+    color: black;
+    font-size: 1em;
   }
 }
 
