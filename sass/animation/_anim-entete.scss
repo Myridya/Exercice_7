@@ -1,15 +1,35 @@
 .animSousTitre
 {
-   animation:v 3s;
-   animation-fill-mode: forwards;
+   animation: sousTitre 1.5s;
+   animation-iteration-count: infinite;
+   position: relative;
 }
 
-@keyframes v{
+.animTitre
+{
+    animation: titre 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes sousTitre{
     from{
-       color:white
+       color:white;
     }
 
     to{
-       color:purple;
+       color:#00d5e5;
     }
+}
+
+@keyframes titre{
+    from{
+        top: 0px;
+        opacity: 0;
+     }
+ 
+     to{
+        top: 70px;
+        opacity: 1;
+     } 
 }

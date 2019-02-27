@@ -338,27 +338,58 @@ template {
 /* ------------------------------------------------------ */
 /* animation */
 .animSousTitre {
-  -webkit-animation: v 3s;
-          animation: v 3s;
+  -webkit-animation: sousTitre 1.5s;
+          animation: sousTitre 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+.animTitre {
+  -webkit-animation: titre 5s;
+          animation: titre 5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  position: relative;
 }
 
-@-webkit-keyframes v {
+@-webkit-keyframes sousTitre {
   from {
     color: white;
   }
   to {
-    color: purple;
+    color: #00d5e5;
   }
 }
 
-@keyframes v {
+@keyframes sousTitre {
   from {
     color: white;
   }
   to {
-    color: purple;
+    color: #00d5e5;
+  }
+}
+
+@-webkit-keyframes titre {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 70px;
+    opacity: 1;
+  }
+}
+
+@keyframes titre {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 70px;
+    opacity: 1;
   }
 }
 
