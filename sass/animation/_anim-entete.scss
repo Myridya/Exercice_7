@@ -1,0 +1,15 @@
+.animSousTitre
+{
+   animation:v 3s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes v{
+    from{
+       color:white
+    }
+
+    to{
+       color:purple;
+    }
+}
